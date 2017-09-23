@@ -1,5 +1,5 @@
 # PHP
-Share PHP example with traditional Chinese comment.
+Share PHP example with traditional Chinese comment.\n
 You can easy learning PHP in these example.
 You could share your code or idea to me, if you want.
 If I write the wrong grammar please tell me, thanks.
