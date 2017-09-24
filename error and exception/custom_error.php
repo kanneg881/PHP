@@ -48,7 +48,7 @@ function customError($error_level, $error_message, $error_file, $error_line)
             echo "<b>未知的錯誤:</b>";
             break;
     }
-    echo "[$error_level] $error_message<br>檔案位置：$error_file 第 $error_line 行<br>";
+    echo "[$error_level] $error_message<br>檔案位置：$error_file 第 $error_line 行<br><br>";
 }
 
 // 設定自定義錯誤函數處理
@@ -56,4 +56,7 @@ set_error_handler("customError");
 
 // 錯誤示範，輸出未定義的變數
 echo $undefined;
+
+// 錯誤的除法，除數不能為0
+echo 1 / 0;
 ?>
