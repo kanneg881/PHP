@@ -15,7 +15,7 @@ include_once "MobileSniffer.php";
 
 class Client
 {
-    // MobileSniffer 物件
+    /** @var MobileSniffer MobileSniffer 物件  */
     private $mobileSniffer;
 
     public function __construct()
