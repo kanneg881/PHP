@@ -1,7 +1,7 @@
 # 目錄
 * [中文](#中文)
   * 更新
-* [English](English)
+* [English](#English)
   * Update
 
 ## 中文
@@ -18,7 +18,8 @@
 中文版PHP設計模式<br>
 https://www.tenlong.com.tw/products/9789862767702
 
-## English
+<h2 id="English">English</h2>
+
 Share PHP example with traditional Chinese comment.<br>
 You can easy learning PHP in these example.<br>
 You could share your code or idea to me, if you want.<br>
