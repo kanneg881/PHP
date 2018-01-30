@@ -7,6 +7,8 @@
  * Time: 下午1:36
  */
 
+namespace Chapter1;
+
 // 確保錯誤輸出
 ini_set("display_errors", "1");
 error_reporting(E_ALL);
@@ -20,10 +22,10 @@ class Client
 
     public function __construct()
     {
-        $this->mobileSniffer = new MobileSniffer();
+        $this->mobileSniffer = new \MobileSniffer();
         echo "設備 = " . $this->mobileSniffer->findDevice() . "<br>";
         echo "瀏覽器 = " . $this->mobileSniffer->findBrowser() . "<br>";
     }
 }
 
-$client = new Client();
+new Client();

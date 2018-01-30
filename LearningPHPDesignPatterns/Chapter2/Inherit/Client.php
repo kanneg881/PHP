@@ -7,6 +7,8 @@
  * Time: 下午12:34
  */
 
+namespace Chapter2;
+
 include_once "Dogs.php";
 include_once "Cats.php";
 
@@ -15,10 +17,10 @@ class Client
     function __construct()
     {
         // 狗物件
-        $dogs = new Dogs();
+        new \Dogs();
         // 貓咪物件
-        $cats = new Cats();
+        new \Cats();
     }
 }
 
-$worker = new Client();
+new Client();

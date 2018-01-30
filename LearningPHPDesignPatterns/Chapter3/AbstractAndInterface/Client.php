@@ -7,6 +7,8 @@
  * Time: 上午12:58
  */
 
+namespace Chapter3;
+
 include_once "NorthRegion.php";
 include_once "WestRegion.php";
 
@@ -15,9 +17,9 @@ class Client
     public function __construct()
     {
         // 北部地區物件
-        $north = new NorthRegion();
+        $north = new \NorthRegion();
         // 西部地區物件
-        $west = new WestRegion();
+        $west = new \WestRegion();
         $this->showInterface($north);
         $this->showInterface($west);
     }
@@ -25,12 +27,12 @@ class Client
     /**
      * 呼叫抽象類別方法
      *
-     * @param IAbstract $region 區域
+     * @param \IAbstract $region 區域
      */
-    private function showInterface(IAbstract $region)
+    private function showInterface(\IAbstract $region)
     {
         echo $region->displayShow() . "<br>";
     }
 }
 
-$worker = new Client();
+new Client();
