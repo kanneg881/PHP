@@ -12,7 +12,7 @@ include_once "DoMath.php";
 class InheritMath extends DoMath
 {
     /** @var string 文字輸出 */
-    private $textOut;
+    private $textOutput;
     /** @var string 全面 */
     private $fullFace;
 
@@ -24,8 +24,8 @@ class InheritMath extends DoMath
      */
     public function numberToText($number)
     {
-        $this->textOut = (string)$number;
-        return $this->textOut;
+        $this->textOutput = (string)$number;
+        return $this->textOutput;
     }
 
     /**

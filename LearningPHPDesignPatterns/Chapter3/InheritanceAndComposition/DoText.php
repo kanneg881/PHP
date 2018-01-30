@@ -10,7 +10,7 @@
 class DoText
 {
     /** @var string 文字輸出 */
-    private $textOut;
+    private $textOutput;
     /** @var string 全面 */
     private $fullFace;
 
@@ -23,8 +23,8 @@ class DoText
     public function numberToText($number)
     {
         // 強制轉型成字串
-        $this->textOut = (string)$number;
-        return $this->textOut;
+        $this->textOutput = (string)$number;
+        return $this->textOutput;
     }
 
     /**
