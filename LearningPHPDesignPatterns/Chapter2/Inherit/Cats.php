@@ -25,6 +25,6 @@ class Cats extends FurryPets
      */
     private function ownsHouse()
     {
-        return "我都會只走在鍵盤上." . "<br>";
+        return "我都只會走在鍵盤上." . "<br>";
     }
 }
