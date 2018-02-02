@@ -11,7 +11,7 @@ include_once "IConnectInfo.php";
 
 use Chapter2\IConnectInfo;
 
-class ConSQL implements IConnectInfo
+class ConcreteSQL implements IConnectInfo
 {
     //使用範圍解析運算子傳遞常數
     /** @var string 伺服器 */
@@ -43,5 +43,5 @@ class ConSQL implements IConnectInfo
     }
 }
 
-$useConstant = new ConSQL();
+$useConstant = new ConcreteSQL();
 $useConstant->testConnection();
