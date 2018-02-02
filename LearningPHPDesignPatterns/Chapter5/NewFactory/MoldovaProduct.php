@@ -30,12 +30,13 @@ class MoldovaProduct implements Product
     public function getProperties()
     {
         // 從外部文字檔載入文字寫入
-        $this->countryContent = file_get_contents("CountryWriteups/Moldova.txt");
+        $this->countryContent = file_get_contents(
+            "asset/other/CountryWriteups/Moldova.txt");
 
         $this->formatHelper = new FormatHelper();
         $this->manufacturingProduct = $this->formatHelper->addTop();
-        $this->manufacturingProduct .= "<img src='Countries/Moldova.gif' class='pixRight'
-            width='330' height='715'/>";
+        $this->manufacturingProduct .= "<img src='asset/image/Countries/Moldova.gif' 
+            class='pixRight' width='330' height='715'/>";
         $this->manufacturingProduct .= "<header>Moldova</header>";
         $this->manufacturingProduct .= "<p>$this->countryContent</p>";
         $this->manufacturingProduct .= $this->formatHelper->closeUp();

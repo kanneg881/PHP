@@ -26,7 +26,7 @@ class FormatHelper
         $this->top = "<!DOCTYPE html>
         <html>
         <head>
-        <link rel='stylesheet' type='text/css' href='products.css'/>
+        <link rel='stylesheet' type='text/css' href='asset/css/products.css'/>
         <meta charset='UTF-8'>
         <title>Map Factory</title>
         </head>

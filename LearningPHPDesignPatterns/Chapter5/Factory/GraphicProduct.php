@@ -24,7 +24,7 @@ class GraphicProduct implements Product
     public function getProperties()
     {
         $this->manufacturingProduct = "<img style='padding: 10px 10px 10px 0;'
-        src='Mali.gif' align='left' width='330' height='355'/>";
+        src='asset/image/Mali.gif' align='left' width='330' height='355'/>";
         return $this->manufacturingProduct;
     }
 }
