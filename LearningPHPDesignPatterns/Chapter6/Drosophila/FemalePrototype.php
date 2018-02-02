@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * 公果蠅物件
+ * 母果蠅物件
  * User: Jackson
  * Date: 2018/1/5
  * Time: 下午10:21
@@ -11,12 +11,12 @@ include_once "IPrototype.php";
 
 use Chapter6\Drosophila\IPrototype;
 
-class MaleProto extends IPrototype
+class FemalePrototype extends IPrototype
 {
     /** 性別 */
-    const gender = "公";
-    /** @var string 是否交配了沒 */
-    public $mated;
+    const gender = "母";
+    /** @var int 生殖能力(它剩餘的產卵數) */
+    public $fecundity;
 
     public function __construct()
     {

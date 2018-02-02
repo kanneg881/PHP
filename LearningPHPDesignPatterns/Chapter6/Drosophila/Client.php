@@ -10,33 +10,33 @@
 
 namespace Chapter6\Drosophila;
 
-include_once "MaleProto.php";
-include_once "FemaleProto.php";
+include_once "MalePrototype.php";
+include_once "FemalePrototype.php";
 
-use MaleProto;
-use FemaleProto;
+use MalePrototype;
+use FemalePrototype;
 
 class Client
 {
     // 用於直接實例化
-    /** @var MaleProto 蠅1 */
+    /** @var MalePrototype 蠅1 */
     private $fly1;
-    /** @var FemaleProto 蠅2 */
+    /** @var FemalePrototype 蠅2 */
     private $fly2;
 
     // 用於複製
-    /** @var MaleProto 克隆蠅1 */
+    /** @var MalePrototype 克隆蠅1 */
     private $clone1Fly;
-    /** @var FemaleProto 克隆蠅2 */
+    /** @var FemalePrototype 克隆蠅2 */
     private $clone2Fly;
-    /** @var FemaleProto 突變克隆蠅 */
+    /** @var FemalePrototype 突變克隆蠅 */
     private $variantCloneFly;
 
     public function __construct()
     {
         // 實例化
-        $this->fly1 = new MaleProto();
-        $this->fly2 = new FemaleProto();
+        $this->fly1 = new MalePrototype();
+        $this->fly2 = new FemalePrototype();
 
         // 複製
         $this->clone1Fly = clone $this->fly1;
@@ -59,7 +59,7 @@ class Client
     /**
      * 顯示蠅
      *
-     * @param FemaleProto|MaleProto $fly 蠅
+     * @param FemalePrototype|MalePrototype $fly 蠅
      */
     private function showFly($fly)
     {
