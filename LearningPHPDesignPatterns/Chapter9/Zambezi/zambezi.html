@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="asset/css/zambezi.css">
+    <title>贊比西貿易站</title>
+</head>
+<body>
+<img src="asset/image/zambezi.png" alt="zambezi">
+<h1>冒險旅行用品</h1>
+<form action="Client.php" method="post">
+    <h2>&nbsp;配備</h2>
+    <h3>導航</h3>
+    <p><strong>GPS</strong></p>
+    <label>
+        <input type="radio" name="gps" value="98">
+        &nbsp;Curiosity $988&nbsp;
+    </label>
+    <label>
+        <input type="radio" name="gps" value="112">
+        &nbsp;Cabot $112&nbsp;
+    </label>
+    <label>
+        <input type="radio" name="gps" value="127">
+        &nbsp;Boomer $127&nbsp;
+    </label>
+    <label>
+        <input type="radio" name="gps" value="189">
+        &nbsp;Livingston $189&nbsp;
+    </label>
+    <p><strong>地圖</strong></p>
+    <label>
+        <input type="checkbox" name="maps[]" value="20">
+        &nbsp;Zambia $20&nbsp;
+    </label>
+    <label>
+        <input type="checkbox" name="maps[]" value="29">
+        &nbsp;Angola $29&nbsp;
+    </label>
+    <label>
+        <input type="checkbox" name="maps[]" value="15">
+        &nbsp;Namibia $15&nbsp;
+    </label>
+    <label>
+        <input type="checkbox" name="maps[]" value="15">
+        &nbsp;Botswana $15&nbsp;
+    </label>
+    <label>
+        <input type="checkbox" name="maps[]" value="30">
+        &nbsp;Zimbabwe $30&nbsp;
+    </label>
+    <label>
+        <input type="checkbox" name="maps[]" value="27">
+        &nbsp;Mozambique $27&nbsp;
+    </label>
+    <br>
+    <h2>&nbsp;河船 (日租)</h2>
+    <label>
+        <input type="radio" name="boat" value="55">
+        &nbsp;白色水上皮艇 $55
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="boat" value="125">
+        &nbsp;機動型獨木舟 $125
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="boat" value="250">
+        &nbsp;快艇 $250
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="boat" value="495">
+        &nbsp;汽艇 $495
+    </label>
+    <p></p>
+    <input type="submit" name="sender" value="送出訂單">
+</form>
+</body>
+</html>
