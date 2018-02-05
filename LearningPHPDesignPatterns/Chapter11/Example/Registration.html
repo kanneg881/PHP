@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="asset/css/proxy.css">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>使用者名稱/密碼 註冊</title>
+</head>
+<body>
+<header>註冊</header>
+<section>
+    <article id="entry">
+        <form action="HashRegister.php" method="post">
+            <label>
+                使用者名稱: (上限15個字元-不能輸入空白)<br>
+                <input type="text" name="userName" maxlength="15">
+            </label>
+            <br>
+            <label>
+                密碼: (上限10個字元-不能輸入空白)<br>
+                <input type="password" name="password" maxlength="10">
+            </label>
+            <br>
+            <input type="submit" value="註冊">
+        </form>
+    </article>
+</section>
+</body>
+</html>
