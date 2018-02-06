@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>測試</title>
+</head>
+<body>
+插入
+<br>
+<form name="insert" action="../trigger/insertTrigger.php" method="post">
+    <label>
+        <input type="text" name="data">
+    </label>
+    <br>
+    <label>
+        <input type="submit" value="插入">
+    </label>
+</form>
+<br>
+找資料
+<form name="find" action="../trigger/searchTrigger.php" method="post">
+    <label>
+        <input type="text" name="data">
+    </label>
+    <br>
+    <label>
+        <input type="submit" value="尋找">
+    </label>
+</form>
+<br>
+顯示全部資料
+<form name="display" action="../trigger/displayAllTrigger.php" method="post">
+    <label>
+        <input type="submit" value="顯示全部資料">
+    </label>
+</form>
+<br>
+更新資料
+<form name="update" action="../trigger/updateTrigger.php" method="post">
+    <label>
+        <input type="text" name="data">
+    </label>
+    <br>
+    <label>
+        <input type="submit" value="改變記錄裡的資料">
+    </label>
+</form>
+<br>
+刪除紀錄
+<form name="delete" action="../trigger/deleteTrigger.php" method="post">
+    <label>
+        <input type="text" name="data">
+    </label>
+    <br>
+    <label>
+        <input type="submit" value="刪除紀錄">
+    </label>
+</form>
+</body>
+</html>

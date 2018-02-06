@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../asset/css/survey.css">
+    <title>工程師個人資料調查</title>
+</head>
+<body>
+<h2>工程師調查</h2>
+<form name="survey" action="../trigger/insertTrigger.php" method="post">
+    <label>
+        <input type="text" name="company">
+        &nbsp;公司名稱
+    </label>
+    <h3>&nbsp;主要職務</h3>
+    <label>
+        <input type="radio" name="programmer" value="developer">
+        &nbsp;開發人員
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="programmer" value="designer">
+        &nbsp;設計人員
+    </label>
+    <h3>&nbsp;主要程式語言</h3>
+    <label>
+        <input type="radio" name="language" value="PHP">
+        &nbsp;PHP
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="language" value="C#/ASP.NET">
+        &nbsp;C# ASP.NET
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="language" value="PERL">
+        &nbsp;PERL
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="language" value="JavaScript">
+        &nbsp;JavaScript
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="language" value="ActionScript 3.0">
+        &nbsp;ActionScript 3.0
+    </label>
+    <h3>&nbsp;主要 開發/設計 平台</h3>
+    <label>
+        <input type="radio" name="platform" value="WinPC">
+        &nbsp;Windows PC
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="platform" value="Mac">
+        &nbsp;Apple Macintosh
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="platform" value="Linux">
+        &nbsp;Linux
+    </label>
+    <h3>&nbsp;主要編程風格</h3>
+    <label>
+        <input type="radio" name="codingStyle" value="sequential">
+        &nbsp;順序式
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="codingStyle" value="procedural">
+        &nbsp;程序式
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="codingStyle" value="object oriented">
+        &nbsp;物件導向編程
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="codingStyle" value="design patterns">
+        &nbsp;設計模式
+    </label>
+    <h3>&nbsp;主要 開發/設計 設備</h3>
+    <label>
+        <input type="radio" name="device" value="Desktop">
+        &nbsp;桌上型電腦
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="device" value="Tablet">
+        &nbsp;平板電腦
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="device" value="SmartPhone">
+        &nbsp;智慧型手機
+    </label>
+    <p></p>
+    <input type="submit" value="創建個人資料">
+</form>
+</body>
+</html>

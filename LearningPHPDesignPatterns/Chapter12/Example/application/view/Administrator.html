@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../asset/css/survey.css">
+    <title>管理模組</title>
+</head>
+<body>
+<h2>管理模組</h2>
+<h3>&nbsp;顯示所有資料</h3>
+<form name="allData" action="../trigger/displayAllTrigger.php" method="post">
+    <input type="submit" value="顯示資料">
+</form>
+<h3>&nbsp;搜尋字段</h3>
+<form name="search" action="../trigger/searchTrigger.php" method="post">
+    <label>
+        <input type="radio" name="field" value="id">
+        &nbsp;ID
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="company">
+        &nbsp;公司
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="programmer">
+        &nbsp;設計者/開發者
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="language">
+        &nbsp;電腦語言
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="platform">
+        &nbsp;開發平台
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="codingStyle">
+        &nbsp;程式風格
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="device">
+        &nbsp;主要設備
+    </label>
+    <p></p>
+    <label>
+        <input type="text" name="term">
+        &nbsp;項目搜尋
+    </label>
+    <p></p>
+    <input type="submit" value="搜尋">
+</form>
+<h3>&nbsp;更新字段</h3>
+<form name="update" action="../trigger/updateTrigger.php" method="post">
+    <label>
+        <input type="radio" name="field" value="id">
+        &nbsp;ID
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="company">
+        &nbsp;公司
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="programmer">
+        &nbsp;設計者/開發者
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="language">
+        &nbsp;電腦語言
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="platform">
+        &nbsp;開發平台
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="codingStyle">
+        &nbsp;程式風格
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="field" value="device">
+        &nbsp;主要設備
+    </label>
+    <p></p>
+    <label>
+        <input type="text" name="oldData">
+        &nbsp;舊值
+    </label>
+    <p></p>
+    <label>
+        <input type="text" name="newData">
+        &nbsp;新值
+    </label>
+    <p></p>
+    <input type="submit" value="更新">
+</form>
+<h3>&nbsp;刪除紀錄</h3>
+<form name="delete" action="../trigger/deleteTrigger.php" method="post">
+    <label>
+        <input type="text" name="id" size="3">
+        &nbsp;刪除的紀錄編號
+    </label>
+    <p></p>
+    <input type="submit" value="永久刪除記錄">
+</form>
+</body>
+</html>
