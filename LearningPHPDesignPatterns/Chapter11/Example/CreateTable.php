@@ -29,7 +29,7 @@ class CreateTable
         $drop = "DROP TABLE IF EXISTS $this->table";
 
         if ($this->mysqli->query($drop) === true) {
-            printf("舊資料表 %s 已經被刪除.<br>", $this->table);
+            printf("舊資料表 %s 已經被刪除。<br>", $this->table);
         }
 
         // 創建資料表

@@ -41,8 +41,7 @@ class UniversalConnect implements IConnectInfo
         if (self::$mysqli) {
             // 要除錯時，請移除下一行的斜線
             // echo "成功連線到 MySQL:";
-        }
-        elseif (mysqli_connect_error()) {
+        } elseif (mysqli_connect_error()) {
             // 連線失敗
             echo "這是失敗的原因: " . mysqli_connect_error();
         }
