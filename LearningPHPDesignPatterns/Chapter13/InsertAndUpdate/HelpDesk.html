@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="asset/css/help.css">
+    <title>服務台資料輸入和更新</title>
+</head>
+<body>
+<h2>服務台資料輸入</h2>
+<form action="InsertData.php" name="dataInsert" method="post">
+    <label>
+        輸入查詢鏈值(query1...queryX)<br>
+        <input type="text" name="chain" size="7">
+    </label>
+    <p></p>
+    <label>
+        輸入服務資訊<br>
+        <textarea name="response" rows="8" cols="24"></textarea>
+    </label>
+    <p></p>
+    <input type="submit" name="send" value="輸入資料到資料表">
+</form>
+<h2>資料更新</h2>
+<form action="UpdateData.php" name="dataUpdate" method="post">
+    <label>
+        輸入查詢鏈值(query1...queryX)<br>
+        <input type="text" name="chain" size="7">
+    </label>
+    <p></p>
+    <label>
+        輸入服務資訊<br>
+        <textarea name="response" rows="8" cols="24"></textarea>
+    </label>
+    <p></p>
+    <input type="submit" name="send" value="更新資料">
+</form>
+</body>
+</html>
