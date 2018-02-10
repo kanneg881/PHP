@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="asset/css/desktop.css">
+    <title>內容管理系統管理模組</title>
+</head>
+<body>
+<h1>內容管理系統管理模組</h1>
+<h2>資料輸入</h2>
+<form action="DataEntry.php" method="post">
+    <label>
+        <input type="text" name="designPatternHeader">
+        &nbsp;設計模式名稱
+    </label>
+    <br>
+    <label>
+        詳細描述設計模式:<br>
+        <textarea name="textBlock" cols="48" rows="16"></textarea>
+    </label>
+    <p></p>
+    <label>
+        <input type="text" name="imageURL">
+        &nbsp;圖片網址
+    </label>
+    <p></p>
+    <input type="submit" name="entry" value="輸入頁面資料">
+</form>
+<h2>資料更新</h2>
+<form action="DataUpdate.php" method="post">
+    <label>
+        <input type="text" name="designPatternUpdate">
+        &nbsp;要更新的設計模式名稱
+    </label>
+    <br>
+    <label>
+        新的詳細描述設計模式:<br>
+        <textarea name="data" cols="48" rows="16"></textarea>
+    </label>
+    <p></p>
+    <input type="submit" name="update" value="更新頁面資料">
+</form>
+</body>
+</html>

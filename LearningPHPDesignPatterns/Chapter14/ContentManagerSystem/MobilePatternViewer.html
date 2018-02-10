@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>手機檢視</title>
+    <link rel="stylesheet"
+          href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js">
+    </script>
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header">
+        <h1>設計模式</h1>
+    </div>
+    <form action="SniffClient.php" method="post">
+        <fieldset data-role="controlgroup">
+            <legend>&nbsp;選擇模式:</legend>
+            <input type="radio" name="designPattern" id="builder" value="Builder">
+            <label for="builder">生成器模式</label>
+            <input type="radio" name="designPattern" id="factoryMethod"
+                   value="Factory Method">
+            <label for="factoryMethod">工廠模式</label>
+            <input type="radio" name="designPattern" id="template"
+                   value="Template Method">
+            <label for="template">樣板模式</label>
+        </fieldset>
+        <input type="submit" data-theme="e" value="View Pattern">
+    </form>
+    <div data-role="footer">&nbsp;PHP 模式</div>
+</div>
+</body>
+</html>
