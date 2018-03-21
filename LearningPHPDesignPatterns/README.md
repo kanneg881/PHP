@@ -11,6 +11,5 @@ https://www.tenlong.com.tw/products/9789862767702
 Example code notation use Chinese, part of the code is slightly different<br>
 If you interest you can buy this book<br>
 English Edition Learning PHP Design Patterns<br>
-All rights reserved.
-All code under this folder copyright by O'Reilly Media. All rights reserved.
+All code under this folder copyright by O'Reilly Media. All rights reserved.<br>
 http://shop.oreilly.com/product/0636920028062.do
