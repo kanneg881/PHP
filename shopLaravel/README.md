@@ -17,7 +17,7 @@ http://www.books.com.tw/products/0010773916
 ## English
 Example code notation use Chinese, part of the code is slightly different.<br>
 The code is as compatible as possible with the PhpStorm IDE.<br>
-And there is install Laravel IDE Helper plugin.(In order to facilitate track Laravel code in PhpStorm)<br>
+And there is install Laravel IDE Helper plugin.(In order to track Laravel code in PhpStorm)<br>
 The following is teaching Laravel IDE Helper.<br>
 點燈坊 如何在PhpStorm活用PHPDoc?<br>
 http://oomusou.io/phpstorm/phpstorm-ide-helper/#Laravel_IDE_Helper<br>
