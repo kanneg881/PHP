@@ -21,7 +21,7 @@ And there is install Laravel IDE Helper plugin.(In order to track Laravel code i
 The following is teaching Laravel IDE Helper.<br>
 點燈坊 如何在PhpStorm活用PHPDoc?<br>
 http://oomusou.io/phpstorm/phpstorm-ide-helper/#Laravel_IDE_Helper<br>
-You must to know the Laravel and Composer before learning this project.<br>
+You must have to know Laravel and Composer before learning this project.<br>
 The project environment settings please refer the book. I don't elaborate here.<br>
 If you interest you can buy this book.<br>
 Chinese Edition Laravel 5 for beginner 新手道場：優雅運用框架快速開發 PHP 網站<br>
