@@ -4,7 +4,7 @@
 範例以中文註解，部分程式碼有稍微不同<br>
 程式碼有盡量相容PhpStorm開發環境<br>
 並且有使用 Laravel IDE Helper 插件(為了在PhpStorm更方便追蹤Laravel程式碼)<br>
-下面是Laravel IDE Helper教學
+下面是Laravel IDE Helper教學<br>
 點燈坊 如何在PhpStorm活用PHPDoc?<br>
 http://oomusou.io/phpstorm/phpstorm-ide-helper/#Laravel_IDE_Helper<br>
 要看懂這些程式碼一定要了解Laravel和composer<br>
